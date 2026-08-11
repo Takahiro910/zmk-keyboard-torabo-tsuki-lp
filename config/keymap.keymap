@@ -18,7 +18,7 @@
 
         bt_clear {
             bindings = <&bt BT_CLR>;
-            key-positions = <52 53>;
+            key-positions = <53 54>;
             layers = <2>;
         };
     };
@@ -48,11 +48,11 @@
 
         num_layer {
             bindings = <
-&trans  &trans              &trans        &trans             &trans           &trans                                &trans                  &trans                     &trans                       &trans                 &trans     &trans
+&trans  &trans              &trans        &trans             &trans           &trans                                &trans                  &trans                  &trans                    &trans              &trans     &trans
 &trans  &kp LS(LC(ESCAPE))  &kp F7        &kp F8             &kp F9           &kp F10                               &kp PLUS                &kp NUMBER_7            &kp NUMBER_8              &kp NUMBER_9        &kp MINUS  &trans
 &trans  &kp LG(TAB)         &mt LCTRL F4  &mt LEFT_SHIFT F5  &mt LEFT_ALT F6  &mt LEFT_GUI F11  &trans  &trans      &mt RIGHT_WIN ASTERISK  &mt RIGHT_ALT NUMBER_4  &mt RIGHT_SHIFT NUMBER_5  &mt RCTRL NUMBER_6  &kp SLASH  &trans
 &trans  &kp LEFT_SHIFT      &kp F1        &kp F2             &kp F3           &kp F12           &trans  &kp PERIOD  &kp NUMBER_0            &kp NUMBER_1            &kp NUMBER_2              &kp NUMBER_3        &kp CARET  &trans
-&trans  &kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT       &trans           &trans            &trans  &kp DOT     &trans                  &trans                     &trans                       &trans                 &kp EQUAL  &trans
+&trans  &kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT       &trans           &trans            &trans  &kp DOT     &trans                  &trans                  &trans                    &trans              &kp EQUAL  &trans
             >;
         };
 
